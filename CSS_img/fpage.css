@@ -1,0 +1,54 @@
+.main{
+    height:90%;
+    width: 90%;
+    position: absolute;
+    margin:5%;
+    background-color: #999999;
+}
+.font_welcome{
+    margin:2% 2% 2% 2%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.option{
+    background-color:#999999;
+    height:90%; 
+}
+.top{
+    font-size: 2rem;
+    padding: 3% 0 5% 2rem;
+}
+.bot{
+    height: 100%;
+    font-size: 5rem;
+}
+.mid{display:inline;}
+.left{
+    background-image: url("employee-schedule.jpg");
+    display: inline-block;
+    height:100%;
+    width:50%;
+}
+
+.right{
+    background-image: url("2.jpg");
+    display: inline-block;
+    height:100%;
+    width:50%;
+}
+a:hover{
+    color:antiquewhite;
+}
+.customer{
+    margin-top: 30%;
+    text-align: center;
+}
+.employee{
+    margin-top: 30%;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+    color: #c6c6c6;
+}
