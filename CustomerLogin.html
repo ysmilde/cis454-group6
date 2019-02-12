@@ -1,18 +1,42 @@
-﻿<html>
-
+<html>
 <head>
     <meta charset="utf-8">
-    <title>Customer</title>
-    <link rel="stylesheet" href="CSS_img/clogin.css">
-    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
-    <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
-    <script src="javascript/login.js"></script>
-
-
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Customer</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="CSS_img/clogin.css">
 </head>
 <body>
-    <div id="firebaseui-auth-container"></div>
-    <div id="loader">Loading...</div>
+    <div class="section">
+        <div class="title">Hi, there</div>
+        <form method="POST" action="php/zhuce.php">
+            <div class="name">
+                <input type="text" name="firstname" class="inp" placeholder=" FirstName">
+            </div>
+            <div class="name">
+                <input type="text" name="lastname" class="inp" placeholder=" LastName">
+            </div>
+            <br>
+            <div class="enter">
+            <input type="text" name="username" class="inp" placeholder=" Username">
+            </div>
+            <br><br>
+            <div class="enter">
+            <input type="password" name="password" class="inp" placeholder=" Password">
+            </div>
+            <div class="enter">
+            <input type="email" name="email" class="inp" placeholder="email">
+            </div>
+            <br><br>
+            <div class="sub">
+                <input type="submit" value="Submit">
+            </div>
+            <div class="link">Already sign up?
+                <a href="php/signIn.php">click here to sign in</a>
+            </div>
+            <div class="link">
+                <a href="FrontPage.html">Go back to front page</a></div>
+        </form>
+       
+    </div>
 </body>
-</html>
