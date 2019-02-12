@@ -24,6 +24,9 @@ header("location: signin.php");
         <div class="block">
             <b class="welcome" id="welcome">Welcome: <i><?php echo $login_session; ?></i></b>
             <b class="logout" id="logout"><a href="logout.php">Logout</a></b>
+            <img src="../CSS_img/apple.jpg">
+            <img src="../CSS_img/orange.jpg">
+            <img src="../CSS_img/yogurt.jpg">
         </div>
     </div>    
     

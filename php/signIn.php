@@ -15,7 +15,7 @@ if(isset($_SESSION['login_user'])){
 </head>
 <body>
     <div class="section">
-        <div class="title">Welcome to Mapme!</div>
+        <div class="title">This is Sale Machine Login page</div>
         <form method="POST" action="">
             <div class="enter">
             <input type="text" name="username" id="name" class="inp" placeholder=" Username">
@@ -28,6 +28,8 @@ if(isset($_SESSION['login_user'])){
             <div class="sub">
                 <input name = "submit" type="submit" value="Go">
             </div>
+            <a href="../CustomerLogin.html">no account?</a>
+            <a href="../FrontPage.html">Go back to main page</a>
             <span><?php echo $error; ?></span>
         </form>
        
